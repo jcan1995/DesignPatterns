@@ -1,0 +1,13 @@
+#ifndef MEDIAPLAYER_H
+#define MEDIAPLAYER_H
+
+/*Interface class*/
+
+class MediaPlayer{
+
+ public:
+  virtual void play(string audioType, string fileName) = 0;
+
+};
+
+#endif

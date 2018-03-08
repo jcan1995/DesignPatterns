@@ -1,0 +1,11 @@
+#include <iostream>
+#include "EnemyAttacker.h"
+#include "EnemyTank.h"
+#include "EnemyRobotAdapter.h"
+#include "EnemyRobot.h"
+int main(){
+  EnemyTank *tank = new EnemyTank();
+  EnemyRobot *robot = new EnemyRobot():
+    EnemyAttacker robotAdapter = new EnemyRobotAdapter(robot)
+
+}

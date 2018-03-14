@@ -1,0 +1,17 @@
+#include "CoffeeFactoryMaker.h"
+
+int main(){
+
+  AbstractCoffeeFactory* obj[2];
+  
+  obj[0] = CoffeeFactoryMaker::getCoffeeFactory("Columbian");
+  obj[1] = CoffeeFactoryMaker::getCoffeeFactory("French");
+  
+  Coffee *coffees[2];
+  coffees[0] = obj[0] -> brewCoffee("Dark");
+  coffees[0] -> drink();
+
+  coffees[0] = obj[1] -> brewCoffee("Dark");
+  coffees[0] -> drink();
+
+}

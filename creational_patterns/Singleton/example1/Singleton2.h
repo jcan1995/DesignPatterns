@@ -3,6 +3,7 @@
 #include <iostream>
 using namespace std;
 
+/*static function is created to further restrict users from creating objects. instance is also made static because static functions can only work with static data members.*/
 
 class Singleton2{
 
